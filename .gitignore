@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+build/
+output_build/
+esp32_firmware_onboard/build/
+
+# Large datasets (keep locally)
+dataset/
+loi/
+dataset_loi/
+*.rar
+*.zip
+
+# Local backups / legacy checkpoints
+*.bak
+models/best_model_legacy.keras
+
+# OS
+.DS_Store
+Thumbs.db
